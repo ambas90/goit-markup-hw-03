@@ -3,6 +3,10 @@ body {
   color: var(--text);
 }
 
+img {
+  display: block;
+}
+
 :root {
   --dark: #2e2f42;
   --text: #434455;

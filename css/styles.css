@@ -3,10 +3,6 @@ body {
   color: var(--text);
 }
 
-img {
-  display: block;
-}
-
 :root {
   --dark: #2e2f42;
   --text: #434455;
@@ -324,4 +320,11 @@ img {
   border-left-width: 1px;
   border-top-width: 0;
   padding: 32px 16px;
+}
+
+.projects-list img {
+  display: block;
+}
+.team-list img {
+  display: block;
 }

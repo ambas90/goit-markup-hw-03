@@ -54,10 +54,13 @@
     </header>
 
     <main>
-      <div class="hero-image">
-        <h1 class="title">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-button">Order Service</button>
-      </div>
+      <section class="section hero-image">
+        <div class="container">
+          <h1 class="title">Effective Solutions for Your Business</h1>
+          <button type="button" class="hero-button">Order Service</button>
+        </div>
+      </section>
+
       <section class="section">
         <div class="container">
           <ul class="feature-list">
@@ -90,7 +93,11 @@
               </p>
             </li>
           </ul>
+        </div>
+      </section>
 
+      <section class="section">
+        <div class="container">
           <h2 class="spec-header">What are we doing</h2>
           <ul class="spec-list">
             <li>
@@ -133,8 +140,10 @@
                   width="264"
                   height="260"
                 />
-                <h3 class="worker-name">Mark Guerrero</h3>
-                <p class="worker-description">Product Designer</p>
+                <div class="worker-card">
+                  <h3 class="worker-name">Mark Guerrero</h3>
+                  <p class="worker-description">Product Designer</p>
+                </div>
               </li>
               <li>
                 <img
@@ -143,8 +152,10 @@
                   width="264"
                   height="260"
                 />
-                <h3 class="worker-name">Tom Ford</h3>
-                <p class="worker-description">Frontend Developer</p>
+                <div class="worker-card">
+                  <h3 class="worker-name">Tom Ford</h3>
+                  <p class="worker-description">Frontend Developer</p>
+                </div>
               </li>
               <li>
                 <img
@@ -153,8 +164,10 @@
                   width="264"
                   height="260"
                 />
-                <h3 class="worker-name">Camila Garcia</h3>
-                <p class="worker-description">cMarketing</p>
+                <div class="worker-card">
+                  <h3 class="worker-name">Camila Garcia</h3>
+                  <p class="worker-description">cMarketing</p>
+                </div>
               </li>
               <li>
                 <img
@@ -163,8 +176,10 @@
                   width="264"
                   height="260"
                 />
-                <h3 class="worker-name">Daniel Wilson</h3>
-                <p class="worker-description">UI Designer</p>
+                <div class="worker-card">
+                  <h3 class="worker-name">Daniel Wilson</h3>
+                  <p class="worker-description">UI Designer</p>
+                </div>
               </li>
             </ul>
           </div>
@@ -173,18 +188,16 @@
     </main>
 
     <footer class="footer-bg">
-      <section class="section">
-        <div class="container">
-          <a href="./index.html" class="logo">
-            <span class="logo-accent">Web</span
-            ><span class="logo-accent-white">Studio</span>
-          </a>
-          <p class="footer-slogan">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-      </section>
+      <div class="container">
+        <a href="./index.html" class="footer-logo">
+          <span class="logo-accent">Web</span>
+          <span class="logo-accent-white">Studio</span>
+        </a>
+        <p class="footer-slogan">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
